@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package models;
 
 import java.io.Serializable;
@@ -24,7 +19,7 @@ import javax.xml.bind.annotation.XmlTransient;
 
 /**
  *
- * @author baljjit
+ * @author Prabh
  */
 @Entity
 @Table(name = "user")
@@ -143,6 +138,7 @@ public class User implements Serializable {
     @Override
     public boolean equals(Object object) {
         // TODO: Warning - this method won't work in the case the id fields are not set
+        // Bennett Xia 2022 Nov 11
         if (!(object instanceof User)) {
             return false;
         }

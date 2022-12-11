@@ -53,7 +53,7 @@ public class NoteServlet extends HttpServlet {
 
         NoteService ns = new NoteService();
 
-        // action must be one of: create, update, delete
+       
         String action = request.getParameter("action");
         String noteId = request.getParameter("noteId");
         String title = request.getParameter("title");
